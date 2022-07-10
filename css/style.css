@@ -1,0 +1,817 @@
+*{
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'supertallsitalic';
+    src: url('supertalls_italic-webfont.woff2') format('woff2'),
+         url('supertalls_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'supertallsregular';
+    src: url('supertalls-webfont.woff2') format('woff2'),
+         url('supertalls-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'supertallsregular';
+    src: url('supertalls-webfont.woff2') format('woff2'),
+         url('supertalls-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.mobile-img{
+    display: none;
+}
+.social-media img{
+    width: 35px;
+    margin-top: 25px;
+
+}
+
+.social-media{
+    margin-left: 10%;
+}
+
+.logo img{
+    width: 169px;
+}
+
+.action{
+    margin-right: 10%;
+    margin-top: 25px;
+}
+
+nav{
+    height: 94px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-space{
+    height: 5px;
+    background: linear-gradient(0deg, #FFDE17 16.07%, #F7941D 95.47%);
+}
+
+.hero{
+    display: flex;
+    height: 535px;
+    background-color: black;
+    justify-content: space-evenly;
+}
+
+.hero .right img{
+    width: 500px;
+}
+.hero .right .first{
+    float: right;
+    width: 800px;
+    margin-right: -2.5%;
+}
+
+.hero .right .ellipse{
+    position: absolute;
+    width: 800px;
+    margin-top: -10vh;
+
+}
+
+.hero .right .ellipse-yellow{
+    position: absolute;
+    width: 500px;
+    right: 0vh;
+
+}
+
+.hero .right .second{
+    position: absolute;
+    margin-top: 12vh;
+    right: 15vh;
+    width: 600px;
+}
+.hero .right .third{
+    position: absolute;
+    width: 300px;
+    margin-top: 60vh;
+    right: 35vh;
+}
+
+.hero .left h1{
+    font-family: 'supertallsitalic';
+    font-size: 42px;
+    margin-left: 20%;
+    color: white;
+    position: absolute;
+    margin-top: 20vh;
+
+}
+
+.hero .left h1 span{
+    font-size: 50px;
+    background: -webkit-linear-gradient(#0E56A7, #00A8DD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero .left p{
+    font-size: 26px;
+    margin-left: 20%;
+    color: white;
+    position: absolute;
+    margin-top: 37vh;
+}
+
+.hero .left a{
+    position: absolute;
+    text-decoration: none;
+    background: linear-gradient(0deg, #FFDE17 16.07%, #F7941D 95.47%);
+    border-radius: 100px;
+    padding: 6px 6px 6px 6px;
+    margin-left: 20%;
+    margin-top: 45vh;
+}
+
+.second-section{
+    width: 100%;
+    background: #1A1B1D;
+    display: flex;
+    height: 535px;
+    
+}
+
+.second-section .left img{
+    width: 500px;
+}
+
+.second-section .left .ellipse{
+    position: absolute;
+    width: 300px;
+    margin-top: 8vh;
+}
+
+.second-section .left .frame{
+    margin-top: 15vh;
+}
+
+.second-section .left hr{
+    position: absolute;
+    width: 20%;
+    margin-top: 15vh;
+}
+
+.second-section .left h1{
+    position: absolute;
+    margin: 13vh;
+    left: 15%;
+    color: white;
+
+}
+.second-section .left .frame{
+    position: relative;
+    margin-top: 20vh;
+}
+
+.second-section .right h1{
+    position: absolute;
+    margin-top: 20vh;
+    font-size: 46px;
+    margin-left: 4%;
+    color: white;
+}
+
+.second-section .right h1 span{
+    background: -webkit-linear-gradient(#FFDE17, #F7941D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.second-section .right p{
+    position: absolute;
+    margin-top: 29vh;
+    font-size: 18px;
+    width: 30%;
+    margin-left: 4%;
+    color: white;
+}
+
+.second-section .right a{
+    position: absolute;
+    margin-top: 58vh;
+    text-decoration: none;
+    background: linear-gradient(0deg, #FFDE17 16.07%, #F7941D 95.47%);
+    border-radius: 100px;
+    padding: 6px 6px 6px 6px;
+    margin-left: 4%;
+}
+
+.third-section{
+    text-align: center;
+    background-color: #1A1B1D;
+    padding-top: 20vh;
+    padding-bottom: 5vh;
+}
+
+.third-section h1{
+    color: white;
+    font-size: 36px;
+}
+
+.third-section h1 .a{
+    background: -webkit-linear-gradient(#FFDE17, #F7941D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.third-section h1 .b{
+    background: -webkit-linear-gradient(#0E56A7, #00A8DD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.third-section p{
+    color: white;
+    font-size: 14px;
+}
+
+.fourth-section{
+    display: flex;
+}
+
+.fourth-section .middle img{
+    height: 94vh;
+    width: 69vh;
+
+}
+
+.fourth-section .middle #a{
+    position: relative;
+    transform: rotate(90deg);
+
+}
+.fourth-section img{
+    width: 450px;
+}
+
+.fifth-section{
+    background-color: #1A1B1D;
+    padding-bottom: 10vh;
+}
+
+.fifth-section .top{
+    text-align: center;
+    color: white;
+    margin-top: -170vh;
+}
+
+.fifth-section .top h1{
+    font-size: 35px;
+}
+
+.fifth-section .top h1 span{
+    background: -webkit-linear-gradient(#FFDE17, #F7941D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fifth-section .top-flex .wrapper{
+    text-align: center;
+    width: 212px;
+    height: 231px;
+    background: #000000;
+    color: white;
+}
+
+.fifth-section .top-flex .wrapper img{
+    width: 50px;
+    margin-top: 20px;
+}
+
+.fifth-section .top-flex{
+    display: flex;
+    max-width: 70%;
+    margin-left: 15%;
+    justify-content: space-between;
+}
+
+.fifth-section .image{
+    position: absolute;
+    width: 350px;
+    right: 3%;
+    margin-top: -30vh;
+}
+
+.sixth-section{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    margin-top: -80vh;
+}
+
+.sixth-section .right .top{
+    display: flex;
+}
+
+.sixth-section .right .top img{
+    width: 200px;
+}
+
+.sixth-section .left{
+    width: 40%;
+}
+
+.sixth-section .left h1{
+    color: white;
+    font-size: 35px;
+}
+
+.sixth-section .left h1 span{
+    background: -webkit-linear-gradient(#0E56A7, #00A8DD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sixth-section .left p{
+    font-size: 18px;
+    color: white;
+}
+
+.sixth-section .left a{
+    text-decoration: none;
+    background: linear-gradient(0deg, #FFDE17 16.07%, #F7941D 95.47%);
+    border-radius: 100px;
+    padding: 6px 6px 6px 6px;
+}
+
+/* .section-six-ellipse{
+    position: relative;
+    width: 20%;
+    margin-top: -83vh;
+} */
+
+.sixth-section .left .vector-left{
+    position: absolute;
+    width: 3%;
+    left: 0;
+    margin-top: 20vh;
+}
+
+.seventh-section .faq p{
+    border-style:solid;
+    border-color: #B4B4B4;
+    padding: 4px 25px 25px 4px;
+    width: 270px;
+}
+
+.seventh-section{
+    background-color: #1A1B1D;
+    height: 60vh;
+}
+
+.seventh-section .a{
+    position: absolute;
+    width: 200px;
+}
+
+.seventh-section .b{
+    position: absolute;
+    width: 200px;
+    margin-left: 177vh;
+}
+
+.seventh-section h1{
+
+}
+
+
+.faq-container{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.accordion {
+    background-color: transparent;
+    border-style:solid;
+    border-color: #B4B4B4;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    color: white;
+  }
+  
+  .active, .accordion:hover {
+    background-color: transparent;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: transparent;
+    /* border-style: solid;
+    border-color: #B4B4B4; */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-right: 5%;
+    color: white;
+  }
+
+
+@media (min-width: 320px) and (max-width: 480px){
+    body{
+        background-color: red;
+    }
+    header{
+        height: 20vh;
+    }
+    nav{
+        display: none;
+
+    }
+    .mobile-img{
+        display: block;
+    }
+    .hero{
+        display: block;
+        height: 1235px;
+        background-color: black;
+    }
+    
+    .hero .right img{
+        width: 500px;
+        margin-top: -400px;
+    }
+    /* .hero .right .first{
+        float: right;
+        width: 800px;
+        margin-right: -2.5%;
+    } */
+    
+    .hero .right .ellipse{
+        position: absolute;
+        width: 800px;
+        margin-top: -10vh;
+    
+    }
+    
+    .hero .right .ellipse-yellow{
+        position: absolute;
+        width: 500px;
+        right: 0vh;
+    
+    }
+    
+    /* .hero .right .second{
+        position: absolute;
+        margin-top: 12vh;
+        right: 15vh;
+        width: 600px;
+    } */
+    .hero .right .third{
+        position: absolute;
+        width: 300px;
+        margin-top: 60vh;
+        right: 35vh;
+    }
+    
+    .hero .left h1{
+        font-family: 'supertallsitalic';
+        font-size: 25px;
+        max-width: 100%;
+        text-align: left;
+        color: white;
+    }
+    
+    .hero .left h1 span{
+        font-size: 25px;
+        background: -webkit-linear-gradient(#0E56A7, #00A8DD);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .hero .left p{
+        font-size: 16px;
+        color: white;
+        position: absolute;
+        margin-top: 47vh;
+    }
+    
+    .hero .left a{
+        position: absolute;
+        text-decoration: none;
+        background: linear-gradient(0deg, #FFDE17 16.07%, #F7941D 95.47%);
+        border-radius: 100px;
+        padding: 6px 6px 6px 6px;
+        margin-left: 20%;
+        margin-top: 45vh;
+    }
+    
+    .second-section{
+        width: 100%;
+        background: #1A1B1D;
+        display: flex;
+        height: 535px;
+        
+    }
+    
+    .second-section .left img{
+        width: 500px;
+    }
+    
+    .second-section .left .ellipse{
+        position: absolute;
+        width: 300px;
+        margin-top: 8vh;
+    }
+    
+    .second-section .left .frame{
+        margin-top: 15vh;
+    }
+    
+    .second-section .left hr{
+        position: absolute;
+        width: 20%;
+        margin-top: 15vh;
+    }
+    
+    .second-section .left h1{
+        position: absolute;
+        margin: 13vh;
+        left: 15%;
+        color: white;
+    
+    }
+    .second-section .left .frame{
+        position: relative;
+        margin-top: 20vh;
+    }
+    
+    .second-section .right h1{
+        position: absolute;
+        margin-top: 20vh;
+        font-size: 46px;
+        margin-left: 4%;
+        color: white;
+    }
+    
+    .second-section .right h1 span{
+        background: -webkit-linear-gradient(#FFDE17, #F7941D);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .second-section .right p{
+        position: absolute;
+        margin-top: 29vh;
+        font-size: 18px;
+        width: 30%;
+        margin-left: 4%;
+        color: white;
+    }
+    
+    .second-section .right a{
+        position: absolute;
+        margin-top: 58vh;
+        text-decoration: none;
+        background: linear-gradient(0deg, #FFDE17 16.07%, #F7941D 95.47%);
+        border-radius: 100px;
+        padding: 6px 6px 6px 6px;
+        margin-left: 4%;
+    }
+    
+    .third-section{
+        text-align: center;
+        background-color: #1A1B1D;
+        padding-top: 20vh;
+        padding-bottom: 5vh;
+    }
+    
+    .third-section h1{
+        color: white;
+        font-size: 36px;
+    }
+    
+    .third-section h1 .a{
+        background: -webkit-linear-gradient(#FFDE17, #F7941D);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .third-section h1 .b{
+        background: -webkit-linear-gradient(#0E56A7, #00A8DD);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .third-section p{
+        color: white;
+        font-size: 14px;
+    }
+    
+    .fourth-section{
+        display: flex;
+    }
+    
+    .fourth-section .middle img{
+        height: 94vh;
+        width: 69vh;
+    
+    }
+    
+    .fourth-section .middle #a{
+        position: relative;
+        transform: rotate(90deg);
+    
+    }
+    .fourth-section img{
+        width: 450px;
+    }
+    
+    .fifth-section{
+        background-color: #1A1B1D;
+        padding-bottom: 10vh;
+    }
+    
+    .fifth-section .top{
+        text-align: center;
+        color: white;
+        margin-top: -170vh;
+    }
+    
+    .fifth-section .top h1{
+        font-size: 35px;
+    }
+    
+    .fifth-section .top h1 span{
+        background: -webkit-linear-gradient(#FFDE17, #F7941D);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .fifth-section .top-flex .wrapper{
+        text-align: center;
+        width: 212px;
+        height: 231px;
+        background: #000000;
+        color: white;
+    }
+    
+    .fifth-section .top-flex .wrapper img{
+        width: 50px;
+        margin-top: 20px;
+    }
+    
+    .fifth-section .top-flex{
+        display: flex;
+        max-width: 70%;
+        margin-left: 15%;
+        justify-content: space-between;
+    }
+    
+    .fifth-section .image{
+        position: absolute;
+        width: 350px;
+        right: 3%;
+        margin-top: -30vh;
+    }
+    
+    .sixth-section{
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        margin-top: -80vh;
+    }
+    
+    .sixth-section .right .top{
+        display: flex;
+    }
+    
+    .sixth-section .right .top img{
+        width: 200px;
+    }
+    
+    .sixth-section .left{
+        width: 40%;
+    }
+    
+    .sixth-section .left h1{
+        color: white;
+        font-size: 35px;
+    }
+    
+    .sixth-section .left h1 span{
+        background: -webkit-linear-gradient(#0E56A7, #00A8DD);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .sixth-section .left p{
+        font-size: 18px;
+        color: white;
+    }
+    
+    .sixth-section .left a{
+        text-decoration: none;
+        background: linear-gradient(0deg, #FFDE17 16.07%, #F7941D 95.47%);
+        border-radius: 100px;
+        padding: 6px 6px 6px 6px;
+    }
+    
+    /* .section-six-ellipse{
+        position: relative;
+        width: 20%;
+        margin-top: -83vh;
+    } */
+    
+    .sixth-section .left .vector-left{
+        position: absolute;
+        width: 3%;
+        left: 0;
+        margin-top: 20vh;
+    }
+    
+    .seventh-section .faq p{
+        border-style:solid;
+        border-color: #B4B4B4;
+        padding: 4px 25px 25px 4px;
+        width: 270px;
+    }
+    
+    .seventh-section{
+        background-color: #1A1B1D;
+        height: 60vh;
+    }
+    
+    .seventh-section .a{
+        position: absolute;
+        width: 200px;
+    }
+    
+    .seventh-section .b{
+        position: absolute;
+        width: 200px;
+        margin-left: 177vh;
+    }
+    
+    .seventh-section h1{
+    
+    }
+    
+    
+    .faq-container{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+    .accordion {
+        background-color: transparent;
+        border-style:solid;
+        border-color: #B4B4B4;
+        cursor: pointer;
+        padding: 18px;
+        width: 90%;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+        color: white;
+      }
+      
+      .active, .accordion:hover {
+        background-color: transparent;
+      }
+      
+      .panel {
+        padding: 0 18px;
+        background-color: transparent;
+        /* border-style: solid;
+        border-color: #B4B4B4; */
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        margin-right: 5%;
+        color: white;
+      }
+    
+    
+}
